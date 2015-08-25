@@ -1,5 +1,5 @@
 {
-  "name": "leezecms",
+  "name": "MaterialMongo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -22,9 +22,12 @@
     "gulp-rename": "^1.2.2",
     "gulp-ruby-sass": "^1.2.0",
     "gulp-uglify": "^1.2.0",
-    "imagemin-pngquant": "^4.1.2"
+    "imagemin-pngquant": "^4.1.2",
+    "wiredep": "^2.2.2"
   },
   "dependencies": {
-    "gulp-ruby-sass": "^1.2.0"
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "mongodb": "^2.0.42"
   }
 }
