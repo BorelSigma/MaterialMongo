@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html >
+<head >
+    <!-- bower:css -->
+    <!-- endbower -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>MongoManager</title>
+</head>
+<body ng-app="MongoManager" layout="column">
+    <md-toolbar>
+     <h1>Mongo Manager</h1>
+    </md-toolbar>
+    <div layout="row" flex>
+        <div ng-include="'assets/views/sidebar/sidebar.html'">
+        </div>
+        <md-content flex>
+            <div id="content" ng-view></div>
+        </md-content>
+    </div>
+
+
+
+<!-- bower:js -->
+
+<!-- endbower -->
+
+<script src="./assets/js/main.js"></script>
+</body>
+</html>

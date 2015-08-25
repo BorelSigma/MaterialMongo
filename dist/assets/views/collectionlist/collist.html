@@ -1,0 +1,16 @@
+<div ng-controller="CollectionListController as cl">
+    <md-toolbar class="md-primary">
+        <h1 class="md-toolbar-tools">
+            Collections
+        </h1>
+    </md-toolbar>
+    <section>
+        <md-list>
+            <md-list-item ng-repeat="collection in cl.collections" layout="row">
+                <div flex="50"><p >{{collection.name}}</p></div>
+                <md-button class="md-raised md-warn" flex="30">Delete</md-button>
+            </md-list-item>
+        </md-list>
+    </section>
+
+</div>
